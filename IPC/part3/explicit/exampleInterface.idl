@@ -1,0 +1,8 @@
+[
+    uuid(12345678-1234-1234-1234-1234567890AB),
+    version(1.0)
+]
+interface ExampleInterface
+{
+    int HelloWorld([in] handle_t h1, [in] int x);
+}
